@@ -80,4 +80,6 @@ All there is left to do is submit the transaction.
 
 This will prompt your wallet for a signature. Sign it.
 
-That's it! You're done. Tag the rest of us in the Discord so we sign too. :)
+That's it! You're done. 
+
+Tag the rest of us in the Discord, so we can confirm the transaction. :)
