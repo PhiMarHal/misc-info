@@ -8,13 +8,13 @@ Steps:
 
 3 - in the Method dropdown, select "disperseEther" to send ETH, or "disperseToken" to send SDL
 
-4 - paste all parameters. 
+4 - (optional) paste SDL token address, if you're sending SDL 
 
-SDL token address, if you're sending SDL.
+5 - paste recipient addresses in quotes, within a bracket array and separated by commas
 
-Recipient addresses in quotes, within a bracket array and separated by commas
+6 - paste respective ether/token amounts, separated by commas. Add 18 zeroes to the number
 
-Respective ether/token amounts, separated by commas. Add 18 zeroes to the number (Solidity doesn't handle decimals by default)
+7 - submit
 
 <hr>
 
@@ -30,7 +30,7 @@ Select "contract interaction".
 
 <hr>
 
-<h3>Step 2 - Paste the Disperse contract address
+<h3>Step 2 - Paste the Disperse contract address</h3>
   
 You will see this popup screen.
   
@@ -44,9 +44,40 @@ Gnosis Safe should fill up the ABI automatically. If it doesn't, refresh the pag
   
 <hr>
   
-<h3>Step 3 - Select "disperseEther" to send ETH, or "disperseToken" to send SDL
+<h3>Step 3 - Select "disperseEther" to send ETH, or "disperseToken" to send SDL</h3>
   
 Open the Method dropdown.
   
 ![Image](disp7.jpg)
+
+<hr>
+
+<h3>Step 4-6 - Paste all parameters</h3>
+
+![Image](disp8.jpg)
+
+If you're sending SDL, paste the SDL token address (0xf1dc500fde233a4055e25e5bbf516372bc4f6871).
+
+Paste recipient addresses in quotes, within a bracket array and separated by commas
+
+Paste respective ether/token amounts, separated by commas. Solidity doesn't handle decimals by default, so you will want to add 18 zeroes to each number.
+
+Etherscan has a convenient unit convertor at https://etherscan.io/unitconverter
+
+![Image](disp10.jpg)
   
+Here's an example transaction, sending 500 SDL (1000 in total) to two addresses.
+
+![Image](disp9.jpg)
+
+<hr>
+
+<h3>Step 7 - Submit</h3>
+
+All there is left to do is submit the transaction.
+
+![Image](disp11.jpg)
+
+This will prompt your wallet for a signature. Sign it.
+
+That's it! You're done. Tag the rest of us in the Discord so we sign too. :)
