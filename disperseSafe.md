@@ -62,7 +62,7 @@ Paste recipient addresses in quotes, within a bracket array and separated by com
 
 Paste respective ether/token amounts, separated by commas. Solidity doesn't handle decimals by default, so you will want to add 18 zeroes to each number.
 
-Etherscan has a convenient unit convertor at https://etherscan.io/unitconverter
+Etherscan has a convenient unit converter at https://etherscan.io/unitconverter
 
 ![Image](disp10.jpg)
   
